@@ -1,0 +1,69 @@
+@use "../../scss/" as *;
+
+.formPost {
+    width: 100%;
+    height: calc(100vh - 80px);
+    display: grid;
+    place-items: center;
+
+    &__container {
+        width: 80%;
+        max-width: 500px;
+        height: auto;
+        padding: 20px;
+        background-color: $a3-hex;
+        border-radius: 12px;
+        color: black;
+        display: flex;
+        flex-direction: column;
+
+        h1 {
+            text-align: center;
+        }
+
+        label {
+            font-size: 25px;
+        }
+    }
+
+    &__inputBox {
+        margin-top: 30px;
+        display: flex;
+        flex-direction: column;
+
+        &-label,
+        &-input {
+            font-size: 1rem;
+            border: none;
+            border-radius: 2px;
+            padding: 5px;
+            font-weight: 500;
+        }
+
+        &-input {
+            height: 40px;
+        }
+
+        &-textArea {
+            height: 150px;
+            font-size: 1rem;
+            margin-top: 5px;
+        }
+    }
+
+    &__button {
+        margin-top: 20px;
+        height: 40px;
+        border-radius: 5px;
+        font-size: 18px;
+
+        border: none;
+        cursor: pointer;
+        background-color: $a2-hex;
+        font-weight: bold;
+
+        &:hover {
+            background-color: $second-color;
+        }
+    }
+}

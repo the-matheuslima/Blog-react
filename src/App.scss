@@ -1,0 +1,23 @@
+@use "./scss/" as *;
+
+html {
+    box-sizing: border-box;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+*,
+*::after,
+*::before {
+    box-sizing: inherit;
+}
+
+body {
+    background-color: $bg-color;
+    font-family: $font;
+    max-width: 1440px;
+    margin: 0 auto;
+}

@@ -1,0 +1,9 @@
+@use "../../scss/" as *;
+
+.posts-list {
+    width: 100%;
+    height: auto;
+    @include flex(center, center);
+    flex-wrap: wrap;
+    padding-top: 20px;
+}

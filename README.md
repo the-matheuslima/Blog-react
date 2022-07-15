@@ -18,7 +18,7 @@
   Esta é uma aplicação ReactJS que usa o firebase como Banco de Dados, para simula um Blog, onde você pode inserir, editar ou deletar os posts. Além de poder, fazer o login usando a conta do (Google). Este projeto foi desenvolvido através de uma <a href="https://www.youtube.com/watch?v=zL0dKETbCNE" target="_blank">aula</a> sobre firebase, procurei adicionar mais fetures a página me estendendo naquilo que é proposto no video.
 </blockquote>
 
-<p align="center">Acesse o projeto clicando <a href="https://blog-react-lemon.vercel.app/" target="_blank"> aqui </a> </p>
+<p align="center">Acesse o projeto clicando <a href="https://blog-react-the-matheuslima.vercel.app/" target="_blank"> aqui </a> </p>
 
 <h2>🚀Tecnologias</h2/>
 
